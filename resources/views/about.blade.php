@@ -98,7 +98,11 @@
 <body>
 
 <header>
+<<<<<<< HEAD
     <h1>Siyam Ul Alam </h1>
+=======
+    <h1>Siyam Ul Alam/h1>
+>>>>>>> 731c276b20dc84f6ef1e2a47fd147976bfe39eeb
     <p>Student | Education Expert | Developer</p>
     <nav>
         <a href="main">Home</a>
@@ -112,9 +116,18 @@
     <section id="about">
         <h2>About Me</h2>
         <div class="bio">
+<<<<<<< HEAD
             <p>Hello! I’m <strong>Siyam Ul Alam</strong>, a student of Educational Technology and Engineering</p>
 
             
+=======
+            <p>Hello! I’m <strong>Your Name</strong>, a passionate and dedicated web developer who loves turning ideas into reality. With a strong background in front-end and back-end development, I aim to design websites that are both functional and visually appealing.</p>
+
+            <p>From HTML and CSS to JavaScript and backend systems, I enjoy learning new tools and improving my skills with every project. My mission is to build websites that offer smooth user experiences while keeping performance and design at the forefront.</p>
+
+            <p>When I’m not coding, you’ll find me exploring design trends, reading tech blogs, or sketching ideas for my next project. I’m always open to collaboration and new challenges!</p>
+        </div>
+>>>>>>> 731c276b20dc84f6ef1e2a47fd147976bfe39eeb
     </section>
 
 </div>

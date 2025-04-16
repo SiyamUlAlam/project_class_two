@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Your Name</title>
+    <title>Your Name | Portfolio</title>
     <style>
-        /* Reset basic styles */
+        /* Reset some basic styles */
         * {
             margin: 0;
             padding: 0;
@@ -67,14 +67,11 @@
             padding-bottom: 5px;
         }
 
-        .bio {
+        .project {
             background: rgba(255, 255, 255, 0.05);
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .bio p {
+            padding: 15px;
             margin-bottom: 15px;
+            border-radius: 10px;
         }
 
         footer {
@@ -98,12 +95,12 @@
 <body>
 
 <header>
-    <h1>Siyam Ul Alam </h1>
+    <h1>Siyam Ul Alam</h1>
     <p>Student | Education Expert | Developer</p>
     <nav>
-        <a href="main">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact">Contact</a>
+        <a href="about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
@@ -111,16 +108,33 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <div class="bio">
-            <p>Hello! I’m <strong>Siyam Ul Alam</strong>, a student of Educational Technology and Engineering</p>
+        <p>
+           I'm a student of Educational Technology and Engineering. I have a passion for learning and sharing knowledge. I enjoy working on projects that combine technology with education to create innovative solutions. My goal is to make learning more accessible and engaging for everyone.
+        </p>
+    </section>
 
-            
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Biponi</h3>
+            <p>A ecommerce Website</p>
+        </div>
+        <div class="project">
+            <h3>Student Result Management System</h3>
+            <p>A result Management System for University</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="2002032@icte.bdu.ac.bd">2002032@icte.bdu.ac.bd</a></p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/siyam-ul-alam" >My LinkedIn Profile</a></p>
     </section>
 
 </div>
 
 <footer>
-&copy; 2025 Siyam Ul Alam | 2002032@icte.bdu.ac.bd
+    &copy; 2025 Siyam Ul Alam | 2002032@icte.bdu.ac.bd
 </footer>
 
 </body>
